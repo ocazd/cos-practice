@@ -16,9 +16,11 @@ int main(int argc, char *argv[])
 
 	cout << "a = " << a << endl;
 	cout << "p = " << p << endl;
-	cout << "&a = " << &a << endl;
-	cout << "p = " << *p << endl;
-	cout << "arr = " << arr << endl;
+
+	*p = 10;
+
+	cout << "a = " << a << endl;
+	cout << "p = " << p << endl;
 
 	return 0;
 }
